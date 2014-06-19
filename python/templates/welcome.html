@@ -9,9 +9,20 @@
     <div class="container">
       <h1>Dados Abertos - Arduino na Sexta</h1>
       <br>
-      {% if data['isso'] %}
-        <p>{{data['isso']}}</p>
-      {% endif %}
+      {%  if data['tamanho']  %}
+        <p>Tamanho: {{data['tamanho']}}</p>
+      {%  endif  %}
+
+      {%  if data['cliente']  %}
+
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#cliente">API: ListarProposições</button>
+
+      <div id="cliente" class="collapse">
+        <pre>{{data['cliente']}}</pre>
+      </div>
+      {%  endif  %}
     </div>
+    <script src="static/js/jquery-1.10.2.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>
