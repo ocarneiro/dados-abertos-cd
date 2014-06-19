@@ -9,7 +9,9 @@
     <div class="container">
       <h1>Dados Abertos - Arduino na Sexta</h1>
       <br>
-      <p>Click <a href="/">here</a> to go home.</p>
+      {% if data['isso'] %}
+        <p>{{data['isso']}}</p>
+      {% endif %}
     </div>
   </body>
 </html>
