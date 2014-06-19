@@ -4,19 +4,21 @@ x1. Obter dados do serviço Dados Abertos
 
 x2. Montar servidor web
 	- flask (servidor web)
-    
- 3. Consultar dados com interface web (integrar as tarefas 1 e 2)
 
- 4. Controlar a consulta dinamicamente
+x3. Enviar dados do python para o html    
+
+ 4. Consultar dados com interface web (integrar as tarefas 1, 2 e 3)
+
+ 5. Controlar a consulta dinamicamente
      	- ajax (ver http://runnable.com/UiPhLHanceFYAAAP/how-to-perform-ajax-in-flask-for-python)
 
- 5. Criar visualizações interessantes na tela
+ 6. Criar visualizações interessantes na tela
      	- pandas (manipulação de dados)
 
- 6. Controlar o arduino com base nos dados obtidos
+ 7. Controlar o arduino com base nos dados obtidos
      	- pyserial
 
- 7. Controlar LEDs RGB a partir dos dados
+ 8. Controlar LEDs RGB a partir dos dados
      	- shiftPWM (arduino)
 
 
